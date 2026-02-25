@@ -1,6 +1,6 @@
 # Visualización de Orbitales del Átomo de Hidrógeno
 Cálculo numérico y visualización de las densidades de probabilidad de los orbitales de un átomo de hidrógeno para diferentes valores de números cuánticos (n,l,m). 
-Se calculan las densidades en 3D y se grafica en dos planos perpendiculares en los angulos seleccionados.
+Se calculan las densidades en 3D y se grafica en dos planos perpendiculares en los ángulos seleccionados.
 
 ## Características
 - Resolución de la parte radial de la función de onda.
