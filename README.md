@@ -3,7 +3,7 @@
 El átomo de hidrógeno es uno de los pocos sistemas físicos realistas que admite una solución cuántica exacta. Este proyecto calcula su función de onda y representa cortes bidimensionales de la densidad de probabilidad para distintos números cuánticos.
 
 <p align="center">
-  <img src="imagenes/orbital-410.png" alt="Corte polar y perfil radial del orbital 410" width="640">
+  <img src="imagenes/orbital-410-polar.png" alt="Corte polar del orbital 410" width="460">
 </p>
 
 ## Física del átomo de hidrógeno
