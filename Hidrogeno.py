@@ -78,6 +78,7 @@ def linea(r,t):
 
 fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
 ax.set_theta_zero_location("N")
+ax.tick_params(axis="y", colors="white")
 #linea de referencia
 ax.plot([the] * len(r), r)
 
@@ -86,7 +87,7 @@ fig.colorbar(c, ax=ax, label="Probabilidad")
 plt.title(rf"Probabilidad $|\psi_{{{n},{l},{m}}}|^2$")
 
 plt.figure()
-plt.plot(r,Pdr(psi(r,the,phi,n,l,m)),"b.-")
+plt.plot(r,Pdr(psi(r,the,phi,n,l,m)), color="tab:blue")
 #graficar el radio de bohr a
 # plt.axvline(a,color = "brown", linewidth = 1, linestyle = "dashed")
 # y_min,_ = plt.gca().get_ylim()
