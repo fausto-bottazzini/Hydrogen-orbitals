@@ -3,7 +3,7 @@
 El átomo de hidrógeno es uno de los pocos sistemas físicos realistas que admite una solución cuántica exacta. Este proyecto calcula su función de onda y representa cortes bidimensionales de la densidad de probabilidad para distintos números cuánticos.
 
 <p align="center">
-  <img src="imagenes/orbital-410-polar.png" alt="Corte polar del orbital 410" width="520">
+  <img src="imagenes/orbital-410.png" alt="Corte polar y perfil radial del orbital 410" width="640">
 </p>
 
 ## Física del átomo de hidrógeno
@@ -41,7 +41,7 @@ L_{n-\ell-1}^{2\ell+1}\!\left(\frac{2r}{na_0}\right)
 Y_\ell^m(\theta,\phi),
 $$
 
-donde $a_0=0.529\times10^{-10}\,\mathrm{m}$ es el radio de Bohr, $Y_\ell^m$ es un armónico esférico y $L_q^p$ es un polinomio de Laguerre asociado.
+donde $a_0=0.529\times10^{-10}\ \mathrm{m}$ es el radio de Bohr, $Y_\ell^m$ es un armónico esférico y $L_q^p$ es un polinomio de Laguerre asociado.
 
 Este proyecto usa la convención adoptada por Griffiths, en la que
 
@@ -90,57 +90,29 @@ Finalmente, la cantidad representada por el programa es la densidad de probabili
 
 | Estado | Nombre | Energía | Nodos radiales | Nodos angulares |
 |---|---|---:|---:|---:|
-| $(2,0,0)$ | $2s$ | $-3.40\,\mathrm{eV}$ | 1 | 0 |
 | $(3,1,0)$ | $3p$ | $-1.51\,\mathrm{eV}$ | 1 | 1 |
-| $(4,0,0)$ | $4s$ | $-0.85\,\mathrm{eV}$ | 3 | 0 |
 | $(4,1,0)$ | $4p$ | $-0.85\,\mathrm{eV}$ | 2 | 1 |
 | $(4,2,0)$ | $4d$ | $-0.85\,\mathrm{eV}$ | 1 | 2 |
 | $(4,3,0)$ | $4f$ | $-0.85\,\mathrm{eV}$ | 0 | 3 |
 
-Cada par de figuras fue generado por `Hidrogeno.py` con $\phi=0^\circ$, $\theta=0^\circ$ y factor de escala 10. A la izquierda aparece el corte polar de $|\psi|^2$; a la derecha, el perfil sobre la dirección seleccionada. Este último es un corte direccional de la densidad, no la distribución radial $r^2|R_{n\ell}|^2$.
-
-### Orbital $(2,0,0)$
+Cada figura fue generada por `Hidrogeno.py` con $\phi=0^\circ$, $\theta=0^\circ$ y factor de escala 10. A la izquierda aparece el corte polar de $|\psi|^2$; a la derecha, el perfil sobre la dirección seleccionada. Este último es un corte direccional de la densidad, no la distribución radial $r^2|R_{n\ell}|^2$.
 
 <p align="center">
-  <img src="imagenes/orbital-200-polar.png" alt="Corte polar del orbital 200" width="48%">
-  <img src="imagenes/orbital-200-radial.png" alt="Perfil radial del orbital 200" width="48%">
+  <img src="imagenes/orbital-310.png" alt="Corte polar y perfil radial del orbital 310" width="760">
 </p>
 
-### Orbital $(3,1,0)$
-
 <p align="center">
-  <img src="imagenes/orbital-310-polar.png" alt="Corte polar del orbital 310" width="48%">
-  <img src="imagenes/orbital-310-radial.png" alt="Perfil radial del orbital 310" width="48%">
+  <img src="imagenes/orbital-410.png" alt="Corte polar y perfil radial del orbital 410" width="760">
 </p>
 
-### Orbital $(4,0,0)$
-
 <p align="center">
-  <img src="imagenes/orbital-400-polar.png" alt="Corte polar del orbital 400" width="48%">
-  <img src="imagenes/orbital-400-radial.png" alt="Perfil radial del orbital 400" width="48%">
+  <img src="imagenes/orbital-420.png" alt="Corte polar y perfil radial del orbital 420" width="760">
 </p>
 
-### Orbital $(4,1,0)$
-
 <p align="center">
-  <img src="imagenes/orbital-410-polar.png" alt="Corte polar del orbital 410" width="48%">
-  <img src="imagenes/orbital-410-radial.png" alt="Perfil radial del orbital 410" width="48%">
-</p>
-
-### Orbital $(4,2,0)$
-
-<p align="center">
-  <img src="imagenes/orbital-420-polar.png" alt="Corte polar del orbital 420" width="48%">
-  <img src="imagenes/orbital-420-radial.png" alt="Perfil radial del orbital 420" width="48%">
-</p>
-
-### Orbital $(4,3,0)$
-
-<p align="center">
-  <img src="imagenes/orbital-430-polar.png" alt="Corte polar del orbital 430" width="48%">
-  <img src="imagenes/orbital-430-radial.png" alt="Perfil radial del orbital 430" width="48%">
+  <img src="imagenes/orbital-430.png" alt="Corte polar y perfil radial del orbital 430" width="760">
 </p>
 
 ## Bibliografía
 
-David J. Griffiths y Darrell F. Schroeter, *Introduction to Quantum Mechanics*, tercera edición, Cambridge University Press, capítulo 4, secciones 4.1 y 4.2; páginas 143–165 del PDF consultado.
+David J. Griffiths y Darrell F. Schroeter, *Introduction to Quantum Mechanics*, tercera edición, Cambridge University Press, capítulo 4, sección 4.2; páginas 143–153.
